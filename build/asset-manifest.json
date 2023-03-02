@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0b66aee.css",
+    "main.js": "/static/js/main.e59a16d7.js",
+    "static/js/787.13d76ca7.chunk.js": "/static/js/787.13d76ca7.chunk.js",
+    "static/media/gallery_16694_2896_5689602.jpg": "/static/media/gallery_16694_2896_5689602.e4b60afe8a19546e706e.jpg",
+    "static/media/Snow.jpg": "/static/media/Snow.599d919973e85005b384.jpg",
+    "static/media/Clear.jpg": "/static/media/Clear.c2bde6c192c03e409fc8.jpg",
+    "static/media/islandiia-nebo-tserkov-pole.jpg": "/static/media/islandiia-nebo-tserkov-pole.71daf6da7b15ccad3ba3.jpg",
+    "static/media/umbrella.png": "/static/media/umbrella.f25201ff439fb78492d3.png",
+    "index.html": "/index.html",
+    "main.c0b66aee.css.map": "/static/css/main.c0b66aee.css.map",
+    "main.e59a16d7.js.map": "/static/js/main.e59a16d7.js.map",
+    "787.13d76ca7.chunk.js.map": "/static/js/787.13d76ca7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0b66aee.css",
+    "static/js/main.e59a16d7.js"
+  ]
+}
