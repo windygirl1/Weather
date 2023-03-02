@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000b0;;
+}
+.App {
+  text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./gallery_16694_2896_5689602.jpg);
+  /* background: linear-gradient(45deg, #eba01c, #008bb7ad); */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.blur {
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(8px); 
+  height: 100vh;
+	width: 100%;
+}
+
+.blur2 {
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(8px); 
+  height: 100vh;
+	width: 100%;
+}
+
+.screen {
+  width: 100%;
+  filter: opacity(0.5);
+}
+
+.pain {
+  filter: grayscale(9);
+}
+
+.Layout {
+  width: 90%;
+  max-width: 100%;
+  height: 90%;
+  /* background: linear-gradient(264deg, #3d8fa1, #189fd59c); */
+  position: absolute;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 64px rgb(0 0 0 / 30%);
+}
+
+.data {
+    width: 90%;
+    max-width: 100%;
+    height: 30%;
+    /* background: linear-gradient(264deg, #3d8fa1, #189fd59c); */
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 64px rgb(0 0 0 / 30%);
+    margin-top: 50vh
+}
+
+.findCity {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 2vh;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.loc {
+  width: 90%;
+  max-width: 100%;
+  height: 30%;
+  /* background: linear-gradient(264deg, #3d8fa1, #189fd59c); */
+  /* position: absolute; */
+  border-radius: 10px;
+  /* overflow: hidden; */
+  box-shadow: 0px 2px 64px rgb(0 0 0 / 30%);
+  margin-left: 130px;
+  margin-bottom: 10px;
+  display: contents;
+}
+
+.Layout input {
+  display: flex;
+  margin-top: 10px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 4px;
+  height: 20px;
+  background-color: #f7efdcf7;
+  outline: none;
+  color: black;
+  height: 25px;
+  width: 190px;
+  font-size: 20px;
+}
+.Layout span {
+  font-size: 20px;
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.Layout button {
+  border-radius: 4px;
+  border: none;
+  color: #757575;
+  height: 25px;
+  margin-left: 15px;
+  display: block;
+  margin-top: 10px;
+  background-color: #f7efdcf7;
+  cursor: pointer;
+  font-size: 20px;
+  width: 70px;
+  -webkit-tap-highlight-color: transparent;
+}
+.Layout button:active {
+  background-color: #d4d1cd;
+}
